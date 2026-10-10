@@ -1,0 +1,5 @@
+/rust/lex_ord/target/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/

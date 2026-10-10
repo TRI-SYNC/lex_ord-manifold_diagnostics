@@ -1,0 +1,15 @@
+[project]
+name = "manifold-diagnostics"
+version = "0.1.0"
+description = "Jacobian sensitivity, subspace projection, and reproducible SVD-based diagnostics."
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["manifold_diagnostics"]

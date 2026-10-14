@@ -1,8 +1,8 @@
 # lex_ord-manifold_diagnostics
 
-Two small, independently verifiable code artifacts, extracted and published as a standalone
-reference point: both are real, tested, and run as described — unlike a number of other
-AI-generated "technical" documents checked against them, which were not.
+Two small, independently verifiable code artifacts: `lex_ord` (Rust) and
+`manifold_diagnostics` (Python). Clone the repo and run the test suites yourself to check
+the claims below.
 
 ## What's here
 
@@ -34,11 +34,3 @@ pytest
 4 tests, covering Jacobian correctness, power-iteration convergence to a known singular
 value, hash stability under repeated runs, and zero-distance projection onto an identity
 subspace.
-
-## Why this repo exists
-
-Both artifacts were checked against claims made by an AI chatbot in the course of
-sorting a large set of AI-generated documents into "real / implemented" versus
-"fabricated / never implemented." These two passed every check: the described behavior
-matches the real implementation, and the implementation's own test suite passes. They're
-published here as a plain, checkable reference — clone it, run the tests yourself.
